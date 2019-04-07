@@ -1,6 +1,6 @@
 {
-    "name": "form-synergy/website-essentials",
-    "description": "This template will install website essentials via PHP API. Including: Strategy, objectives and modules.",
+    "name": "form-synergy/custom-module",
+    "description": "This template will install create a single module, this example will include all options and features. Great example.",
     "keywords": [
         "form",
         "synergy",
@@ -24,7 +24,7 @@
         "form-synergy/php-api": ">=1"
     },
     "replace": {
-        "form-synergy/website-essentials": "self.version"
+        "form-synergy/custom-module": "self.version"
     },
     "autoload": {
         "files": ["src/template.php"]
